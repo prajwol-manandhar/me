@@ -125,4 +125,34 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     .imessage p {
       margin: 0.5rem 0;
     }
+  
+
+.hero-inner{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 0;
+    
+}
+
+.hero-copy {
+    position: relative;
+}
+
+.hero-figure {
+    position: relative;
+}
+
+@media screen and (min-width:1152px){
+  .hero-inner {
+      justify-content: space-between;
   }
+
+  .hero-copy {
+      order:1;
+  }
+
+  .hero-figure {
+      order:2;
+  }
+}
