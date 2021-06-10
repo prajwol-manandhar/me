@@ -45,7 +45,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
   }
   
   p.from-me::after {
-    background-color: #16181d;
+    background-color: #2c2f3a;
     border-bottom-left-radius: 0.5rem;
     right: -40px;
     transform:translate(-30px, -2px);
@@ -83,7 +83,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
   }
   
   p.from-them::after {
-    background-color: #16181d;
+    background-color: #2c2f3a;
     border-bottom-right-radius: 0.5rem;
     left: 20px;
     transform: translate(-30px, -2px);
