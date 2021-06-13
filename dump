@@ -33,3 +33,34 @@
                                 </div>
                             </div>
                         </section>
+
+
+
+                        #mycarousel {
+  @media screen and (max-width: 640px) {
+    .summary-item-list {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .summary-item {
+      width: 100%!important;
+      margin-bottom: 50px;
+    }
+    .summary-item:nth-child(n+4) {
+      display: none;
+    }
+    .summary-carousel-pager {
+      display: none!important;
+    }
+  }
+  @media screen and (min-width: 641px) {
+    .button-block {
+      display: none;
+    }}}
